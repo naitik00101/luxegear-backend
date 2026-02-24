@@ -15,7 +15,6 @@ const app = express();
 
 connectDB();
 const allowedOrigins = [
-    "http://localhost:5173",
     "https://luxegear-frontend.vercel.app"
 ];
 
